@@ -19,7 +19,7 @@
     <div class="text-gray-500 text-3xl mt-10 mb-6">
       Fetching Data
     </div>
-    <img :src="require('../assets/gif.gif')" alt="" class="w-24 m-auto" />
+    <img :src="require('../assets/gif.gif')" alt="" class="m-auto" />
   </main>
 </template>
 
@@ -61,7 +61,7 @@ export default {
       dataDate.value = data.Date;
       status.value = data.Global;
       countries.value = data.Countries;
-      loading.value = false;
+      loading.value = false
     };
     baseSetup();
     return {
